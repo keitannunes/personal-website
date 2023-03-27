@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Bee Continued</title>
+    <link rel= "stylesheet" type= "text/css" href= "static/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="/tbc"><img id="bee" src="static/bee.png" alt="bee"></a>
+        <p><a href="/tbc" id="logo">To Bee Continued...</a></p>
+    </nav>
+    <div id="options-container">
+        <p id="option">Choose an option:</p>
+        <label id="inline"> 
+            <input type="radio" name="option" value="0"> <span class="prompt" id="option0"></span>
+        </label>
+        <label id="inline">
+            <input type="radio" name="option" value="1"> <span class="prompt" id="option1"></span>
+        </label>
+        <label id="inline">
+            <input type="radio" name="option" value="2"> <span class="prompt" id="option2"></span>
+        </label> 
+        <label id="inline"> 
+            <input type="radio" name="option" value="3"> <span class="prompt" id="option3"></span>
+        </label>
+        <label id="inline">
+            <input type="radio" name="option" value="4"> <span class="prompt" id="option4"></span>
+        </label>
+    </div>
+    <div id="options-buttons">
+        <button class="submit" onclick="reGenerateIdeas()">Regenerate !</button>
+        <button class="submit" onclick="onOptionsSubmit()">Go !</button>
+    </div>
+    <p><a href="/tbc" id="back">★ back ★</a></p>
+    <script src="static/options.js"></script>
+</body>
+</html>
